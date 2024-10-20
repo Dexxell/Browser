@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Browser Download</title>
+    <title>Download Custom Browser</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             text-align: center;
-            margin: 50px;
-            background-color: #f0f0f0;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
         }
         h1 {
             color: #333;
         }
         a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 20px;
-            background-color: #007BFF;
-            color: white;
             text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
         a:hover {
-            background-color: #0056b3;
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <h1>Download Custom Browser</h1>
-    <p>Click the button below to download the executable:</p>
+
+    <div class="container">
+        <h1>Download Custom Browser</h1>
+        <p>Click the button below to download the Custom Browser application.</p>
+        <a href="o.iss" download>Download Now</a>
+    </div>
+
+</body>
+</html>
+
     <a href="https://drive.google.com/uc?export=download&id=1mixr4UhtPMRSiU6-vS1DGRtpqOu2tmIj" download>Download custom_browser.exe</a>
 </body>
 </html>
